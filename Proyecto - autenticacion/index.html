@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+
+    <div class="container" id="auth">
+        <div class="card">
+            <div id="login">
+                <h1>Iniciar Sesion</h1>
+                <form action="" id="LoginForm">
+                    <input type="text" name="correoLogin" id="correoLogin" placeholder="Ingrese un correo electronico">
+                    <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Ingrese la clave">
+                    <button type="submit" >iniciar Sesion</button>
+                </form>
+            </div>
+
+            <div id="registro">
+                <h1>Registrarse</h1>
+                <form action="" id="registroForm">
+                    <input type="text" name="correoRegistro" id="correoRegistro" placeholder="Ingrese un correo electronico">
+                    <input type="password" name="passwordRegistro" id="passwordRegistro" placeholder="Ingrese la clave">
+                    <button type="submit" >Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <nav>
+        <button id="CerrarSesion">Cerrar Sesion</button> 
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
+    <script src="js/auth.js" type="module" ></script>
+</body>
+</html>
